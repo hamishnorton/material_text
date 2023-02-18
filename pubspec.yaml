@@ -1,7 +1,7 @@
 name: material_text
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://prozine.dev/material_text
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
