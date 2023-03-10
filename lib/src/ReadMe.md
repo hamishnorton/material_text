@@ -1,4 +1,3 @@
-# Text
+# Material Text
 
-This folder contains widgets that wrap styles required for this app.
-Currently those of Google's Material 3 Design system.
+This folder contains a set of convenience widgets that wrap the Text widget with a material style.

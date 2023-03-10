@@ -11,28 +11,8 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-Provides a convenice wrapper around the material text styles
-
-## Features
-
-Provides a widget to 
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
+Provides a convenice wrappers around the material text styles
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+This isn't really a package you should import. Instead is more of an example of how you could structure the text styles your app requires. For each text style in your own app create a widget that wraps a Text widget with the specifics it needs.
