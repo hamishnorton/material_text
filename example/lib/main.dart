@@ -44,6 +44,13 @@ class MaterialTextDemo extends StatelessWidget {
               MtDisplaySmall('MtDisplaySmall'),
               MtDisplayMedium('MtDisplayMedium'),
               MtDisplayLarge('MtDisplayLarge'),
+              Card(
+                child: SizedBox(
+                  width: 300,
+                  height: 300,
+                  child: MtFitted('MtFitted'),
+                ),
+              )
             ],
           ),
         ),
