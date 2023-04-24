@@ -16,3 +16,5 @@ Provides a convenice wrappers around the material text styles
 ## Additional information
 
 This isn't really a package you should import. Instead is more of an example of how you could structure the text styles your app requires. For each text style in your own app create a widget that wraps a Text widget with the specifics it needs.
+
+[Material Topography type scale tokens](https://m3.material.io/styles/typography/type-scale-tokens)
