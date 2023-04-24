@@ -13,3 +13,4 @@ export 'src/mt_title_large.dart';
 export 'src/mt_title_medium.dart';
 export 'src/mt_title_small.dart';
 export 'src/mt_fitted.dart';
+export 'src/text_for_background.dart';

@@ -45,12 +45,21 @@ class MaterialTextDemo extends StatelessWidget {
               MtDisplayMedium('MtDisplayMedium'),
               MtDisplayLarge('MtDisplayLarge'),
               Card(
+                color: Colors.amber,
                 child: SizedBox(
                   width: 300,
                   height: 300,
                   child: MtFitted('MtFitted'),
                 ),
-              )
+              ),
+              Card(
+                color: Colors.purple,
+                child: TextForBackground('TextForBackground', Colors.purple),
+              ),
+              Card(
+                color: Colors.amber,
+                child: TextForBackground('TextForBackground', Colors.amber),
+              ),
             ],
           ),
         ),
