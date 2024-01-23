@@ -6,7 +6,6 @@ class TitleMedium extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('TxDisplayMedium.build()');
     return Text(
       text,
       style: Theme.of(context).textTheme.titleMedium,

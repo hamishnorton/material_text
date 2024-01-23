@@ -6,7 +6,6 @@ class LabelMedium extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('TxDiLabelMedium.build()');
     return Text(
       text,
       style: Theme.of(context).textTheme.labelMedium,

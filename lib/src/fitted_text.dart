@@ -7,7 +7,6 @@ class FittedText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('MtFitted.build()');
     return FittedBox(
       fit: BoxFit.contain,
       child: Text(
