@@ -5,17 +5,23 @@ import 'package:flutter/material.dart';
 class TextForBackground extends StatelessWidget {
   final String data;
   final Color backgroundColor;
+  final TextAlign textAlign;
   const TextForBackground(
     this.data,
     this.backgroundColor, {
     super.key,
+    this.textAlign = TextAlign.left,
   });
 
   @override
   Widget build(BuildContext context) {
     final textColor = getTextColorForBackground(backgroundColor, context);
 
-    return Text(data, style: TextStyle(color: textColor));
+    return Text(
+      data,
+      style: TextStyle(color: textColor),
+      textAlign: textAlign,
+    );
   }
 
   static getTextColorForBackground(

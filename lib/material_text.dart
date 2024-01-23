@@ -1,5 +1,8 @@
 library material_text;
 
+export 'src/body_large.dart';
+export 'src/body_medium.dart';
+export 'src/body_small.dart';
 export 'src/display_large.dart';
 export 'src/display_medium.dart';
 export 'src/display_small.dart';

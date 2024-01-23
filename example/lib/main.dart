@@ -31,19 +31,23 @@ class MaterialTextDemo extends StatelessWidget {
       body: const SafeArea(
         child: SingleChildScrollView(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              LabelSmall('LabelSmall'),
+              DisplayLarge('DisplayLarge'),
+              DisplayMedium('DisplayMedium'),
+              DisplaySmall('DisplaySmall'),
+              HeadlineLarge('HeadlineLarge'),
+              HeadlineMedium('HeadlineMedium'),
+              HeadlineSmall('HeadlineSmall'),
+              TitleLarge('TitleLarge'),
+              TitleMedium('TitleMedium'),
+              TitleSmall('TitleSmall'),
+              BodyLarge('BodyLarge'),
+              BodyMedium('BodyMedium'),
+              BodySmall('BodySmall'),
               LabelMedium('LabelMedium'),
               LabelLarge('LabelLarge'),
-              TitleSmall('TitleSmall'),
-              TitleMedium('TitleMedium'),
-              TitleLarge('TitleLarge'),
-              HeadlineSmall('HeadlineSmall'),
-              HeadlineMedium('HeadlineMedium'),
-              HeadlineLarge('HeadlineLarge'),
-              DisplaySmall('DisplaySmall'),
-              DisplayMedium('DisplayMedium'),
-              DisplayLarge('DisplayLarge'),
+              LabelSmall('LabelSmall'),
               Card(
                 color: Colors.amber,
                 child: SizedBox(
