@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtHeadlineLarge extends StatelessWidget {
-  const MtHeadlineLarge(this.text, {Key? key}) : super(key: key);
+class HeadlineLarge extends StatelessWidget {
+  const HeadlineLarge(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtDisplayMedium extends StatelessWidget {
-  const MtDisplayMedium(this.text, {Key? key}) : super(key: key);
+class TitleMedium extends StatelessWidget {
+  const TitleMedium(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override
@@ -10,7 +9,7 @@ class MtDisplayMedium extends StatelessWidget {
     debugPrint('TxDisplayMedium.build()');
     return Text(
       text,
-      style: Theme.of(context).textTheme.displayMedium,
+      style: Theme.of(context).textTheme.titleMedium,
       textAlign: TextAlign.center,
     );
   }

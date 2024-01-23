@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtLabelLarge extends StatelessWidget {
-  const MtLabelLarge(this.text, {Key? key}) : super(key: key);
+class LabelLarge extends StatelessWidget {
+  const LabelLarge(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

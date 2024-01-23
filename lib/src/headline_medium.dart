@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtHeadlineSmall extends StatelessWidget {
-  const MtHeadlineSmall(this.text, {Key? key}) : super(key: key);
+class HeadlineMedium extends StatelessWidget {
+  const HeadlineMedium(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override
@@ -10,7 +9,7 @@ class MtHeadlineSmall extends StatelessWidget {
     debugPrint('TxHeadlineMedium.build()');
     return Text(
       text,
-      style: Theme.of(context).textTheme.headlineSmall,
+      style: Theme.of(context).textTheme.headlineMedium,
       textAlign: TextAlign.center,
     );
   }

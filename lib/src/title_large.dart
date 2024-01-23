@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtTitleLarge extends StatelessWidget {
-  const MtTitleLarge(this.text, {Key? key}) : super(key: key);
+class TitleLarge extends StatelessWidget {
+  const TitleLarge(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

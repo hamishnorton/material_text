@@ -4,7 +4,8 @@ version: 0.0.1
 homepage: https://prozine.dev/material_text
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  # sdk: '>=2.19.2 <3.0.0'
+  sdk: '>=3.2.4 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:

@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtLabelMedium extends StatelessWidget {
-  const MtLabelMedium(this.text, {Key? key}) : super(key: key);
+class LabelMedium extends StatelessWidget {
+  const LabelMedium(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

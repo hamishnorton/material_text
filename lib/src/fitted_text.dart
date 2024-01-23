@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 /// Provides a Text widget fitted width available
-class MtFitted extends StatelessWidget {
-  const MtFitted(this.text, {Key? key}) : super(key: key);
+class FittedText extends StatelessWidget {
+  const FittedText(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

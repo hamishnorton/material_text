@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
-class MtDisplaySmall extends StatelessWidget {
-  const MtDisplaySmall(this.text, {Key? key}) : super(key: key);
+class DisplaySmall extends StatelessWidget {
+  const DisplaySmall(this.text, {Key? key}) : super(key: key);
   final String text;
 
   @override

@@ -28,28 +28,28 @@ class MaterialTextDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text(kAppTitle)),
-      body: SafeArea(
+      body: const SafeArea(
         child: SingleChildScrollView(
           child: Column(
-            children: const [
-              MtLabelSmall('MtLabelSmall'),
-              MtLabelMedium('MtLabelMedium'),
-              MtLabelLarge('MtLabelLarge'),
-              MtTitleSmall('MtTitleSmall'),
-              MtTitleMedium('MtTitleMedium'),
-              MtTitleLarge('MtTitleLarge'),
-              MtHeadlineSmall('MtHeadlineSmall'),
-              MtHeadlineMedium('MtHeadlineMedium'),
-              MtHeadlineLarge('MtHeadlineLarge'),
-              MtDisplaySmall('MtDisplaySmall'),
-              MtDisplayMedium('MtDisplayMedium'),
-              MtDisplayLarge('MtDisplayLarge'),
+            children: [
+              LabelSmall('LabelSmall'),
+              LabelMedium('LabelMedium'),
+              LabelLarge('LabelLarge'),
+              TitleSmall('TitleSmall'),
+              TitleMedium('TitleMedium'),
+              TitleLarge('TitleLarge'),
+              HeadlineSmall('HeadlineSmall'),
+              HeadlineMedium('HeadlineMedium'),
+              HeadlineLarge('HeadlineLarge'),
+              DisplaySmall('DisplaySmall'),
+              DisplayMedium('DisplayMedium'),
+              DisplayLarge('DisplayLarge'),
               Card(
                 color: Colors.amber,
                 child: SizedBox(
                   width: 300,
                   height: 300,
-                  child: MtFitted('MtFitted'),
+                  child: FittedText('Fitted'),
                 ),
               ),
               Card(
